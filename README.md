@@ -30,9 +30,9 @@ There are several components to creating these visuals.
 
   - [us-china-imports.ipynb](us-china-imports.ipynb) grabs US imports and makes the US import tariff series. Note the export series is just taken from [Consumption Response to Trade Shocks repo](https://github.com/mwaugh0328/consumption_and_tradewar), need to fix.
 
-  -[county-projection-imports.ipynb](county-projection-imports.ipynb) projects the US import tariff series down to the county-level by constructing an employment weighted average across industries.
+  - [county-projection-imports.ipynb](county-projection-imports.ipynb) projects the US import tariff series down to the county-level by constructing an employment weighted average across industries.
 
-  -[county-projection-exports.ipynb](county-projection-exports.ipynb) projects the China tariff on US exports down to the county-level by constructing an employment weighted average across industries.
+  - [county-projection-exports.ipynb](county-projection-exports.ipynb) projects the China tariff on US exports down to the county-level by constructing an employment weighted average across industries.
 
   - [trade_plots_us.ipynb](trade_plots_us.ipynb) creates the graphic with the map, time series plot of US tariffs on imports from China, break down by NAICs industry catagory.
 
