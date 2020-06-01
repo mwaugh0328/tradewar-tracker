@@ -14,7 +14,7 @@ Clean up of the repo is in progress, basic outline is described below.
 
 There are several components to creating these visuals.
 
-  - [make-phase-one-product-list.ipynb](make-phase-one-product-list.ipynb) creates the list of products that are coverd by the Phase One aggreement in Annex 6-1.
+  - [make-phase-one-product-list.ipynb](make-phase-one-product-list.ipynb) creates the list of products that are coverd by the [Phase One aggreement in Annex 6-1](notes/Economic_And_Trade_Agreement_Between_The_United_States_And_China_Text.pdf).
 
   - [phase-one-trade.ipynb](phase-one-trade.ipynb) grabs the trade data, product list, and then county-level informaiton to creat the figures on the main site.
 
@@ -26,9 +26,9 @@ There are several components to creating these visuals.
 
 #### [Trade War: Time, Products, Region](https://www.tradewartracker.com/the-us-china-trade-war.html)
 
-  - [make-us-tariffs.ipynb](make-us-tariffs.ipynb) constructs the US, Section 301 tariff actions from orginal source data (see the notebook for details).
+  - [make-us-tariffs.ipynb](make-us-tariffs.ipynb) constructs the US, Section 301 tariff actions from orginal source data (see the notebook for details and [here for some notes](notes/section301-tariffs.md)).
 
-  - [us-china-imports.ipynb](us-china-imports.ipynb) grabs US imports and makes the US import tariff series. Note the export series is just taken from [Consumption Response to Trade Shocks repo](https://github.com/mwaugh0328/consumption_and_tradewar), need to fix.
+  - [us-china-imports.ipynb](us-china-imports.ipynb) grabs US imports and makes the US import tariff series. Note the export series is just taken from [Consumption Response to Trade Shocks repo](https://github.com/mwaugh0328/consumption_and_tradewar), need to fix this part so it's stand alone.
 
   - [county-projection-imports.ipynb](county-projection-imports.ipynb) projects the US import tariff series down to the county-level by constructing an employment weighted average across industries.
 
